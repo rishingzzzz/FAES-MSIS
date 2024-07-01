@@ -1,0 +1,87 @@
+.container {
+    background-image: var(--school-background);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.full-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    position: relative;
+}
+
+.left-container {
+    grid-area: 1 / 1 / 6 / 4;
+    padding: 7rem 0 7rem 0;
+}
+
+.left-container h2 {
+    color: var(--white-bg);
+    font-family: var(--poppins-font);
+    font-size: 4rem;
+    text-align: center;
+}
+
+.right-container {
+    grid-area: 1 / 4 / 6 / 6;
+    background: linear-gradient(to right, rgba(68, 182, 57, 0.74), rgba(68, 182, 57, 0.74));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+}
+
+.right-container img {
+    padding-top: 1rem;
+    width: 10rem;
+    height: 8rem;
+}
+
+.right-container .text1{
+    font-family: var(--inter-font);
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--white-bg);
+    padding: 2rem 0 1.5rem 0;   
+}
+
+.right-container .text2{
+    font-family: var(--inter-font);
+    font-weight: 500;
+    color: var(--white-bg);
+    font-size: 1rem;
+    padding-bottom: 2rem;
+}
+
+.right-container a{
+    background-color: var(--button-bg);
+    width: 50%;
+    height: 10vh;
+    margin: 1rem 0 1rem 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--black-bg);
+    font-size: 1rem;
+    text-decoration: none;
+}
+.right-container .text3,.text4 {
+    font-family: var(--anek-font);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.right-container .text3 {
+    color: var(--white-bg);
+}
+
+.right-container .text4{
+    color: var(--button-bg);
+}
