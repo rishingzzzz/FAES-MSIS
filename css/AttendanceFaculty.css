@@ -1,0 +1,64 @@
+body {
+	font-family: Inter;
+	margin: 0;
+	padding: 0;
+}
+.header {
+ 	display: flex;
+ 	justify-content: space-around;
+ 	align-items: center;
+ 	padding: 30px;
+ 	width: 100%;
+  	background-color: #44B639;
+  	color: white;
+ 	position: fixed;
+	margin: 0;
+}
+.header-left h2 {
+  	margin: 0;
+ 	font-family: Abhaya Libre ExtraBold;
+
+}
+.header-center ul {
+  	list-style: none;
+  	padding: 0;
+  	margin: 0;
+	font-size: 10;
+}
+.header-center li {
+  	display: inline-block;
+	margin-right: 1em;
+	
+}
+.header-center a {
+  	color: white;
+  	text-decoration: none;
+	font-size: 14px;
+}
+.header-left {
+	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+}
+.header-right img, .header-left img {
+  width: 50px; /* Adjust width as needed */
+  height: 50px; /* Adjust height as needed */
+  border-radius: 50%;
+}
+main {
+	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+	width:100%;
+	height: 700px;
+}
+.names{
+	width:30%;
+}
+table {
+	margin: 0;
+	width:100%;
+}
+td input, th input {
+	width:90%;
+}
